@@ -1,4 +1,4 @@
-const React = require('react');
+import React, { Component } from 'react';
 
 class Spaceship extends React.Component{
   render() {
@@ -19,4 +19,3 @@ Spaceship.defaultProps = {
 };
 
 module.exports = Spaceship;
-
